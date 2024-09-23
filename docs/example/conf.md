@@ -7,9 +7,9 @@
             url: ""
             type: http
             interval: 86400
-            health-check: {enable: true,url: "https://www.gstatic.com/generate_204", interval: 300}
+            health-check: {enable: true,url: "https://yfjc.xyz/api/v1/client/subscribe?token=16eaa3c944e6eb1a6ae97b6ef2ce0a5f", interval: 300}
             override:
-              additional-prefix: "[provider1]"
+[provider1]
 
           provider2:
             url: ""
